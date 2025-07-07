@@ -22,12 +22,14 @@ h1 {
     align-items: center;
     font-size: 60px;
     font-weight: 800;
+    color: #4755F5;
 }
 
 p {
     font-size: 25px;
     font-weight: 800;
     margin: 20px auto;
+    color: #4e4a4a;
 }
 
 main {
