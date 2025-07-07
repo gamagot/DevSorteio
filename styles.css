@@ -1,0 +1,106 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background: black;
+}
+
+.gif {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+}
+
+h1 {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 800;
+    margin: 20px auto;
+}
+
+main {
+    width: 700px;
+    background: #F4F4F4;
+    border-radius: 20px;
+    margin: 0 auto 100px;
+    padding: 30px;
+    box-shadow: 0 0 20px 2px #4e4a4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border-radius: 20px;
+    border: 1px solid #BBB;
+    background: #FFF;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+    box-shadow: -3px 3px 10px 2px #a39d9d;
+    padding: 10px;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label {
+    color: #777;
+    font-size: 20px;
+    font-weight: 700;
+    width: 50%;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+button {
+    border-radius: 20px;
+    background: #4755F5;
+    width: 50%;
+    padding: 15px;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: -3px 3px 10px 2px #a39d9d;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+div {
+    width: 100%;
+    margin: 0;
+    
+}
